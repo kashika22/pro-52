@@ -1,0 +1,48 @@
+  .a{background-image:"download.jpg";} 
+  .b{background-color:rgb(93, 233, 75);}
+  .c{background-color:rgb(207, 75, 233);}
+  .d{background-color:rgb(230, 208, 19);}
+  .e{background-color:rgb(31, 219, 157);}
+
+  .grid img {
+      border:2px solid black;
+      border-radius: 50px;
+      display:flex;
+      justify-content:space-between;
+
+  }
+  .origami{
+      border-radius: 20px;
+      background-color: white;
+      width: 310px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .header{
+    background-color: rgb(29, 236, 243);    
+    display: flex;   
+    justify-content: space-between;
+    
+  }
+
+  body{
+      margin: 0px;
+      background-color: whitesmoke;
+  }
+  
+  a:visited{
+    color:rgb(255, 21, 235);
+  }
+  
+  a:link{
+    color:rgb(255, 251, 21);
+  }
+  
+  
+  .item:hover p{
+    opacity:1;
+  }
+  
+  .item:hover img {
+    opacity: 0.33;
+  }
